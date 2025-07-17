@@ -31,3 +31,8 @@ CACHE_TYPE_MEMORY = "memory"
 
 # sqlite config
 SQLITE_DB_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "schema", "sqlite_tables.db")
+
+# 数据库操作模块路径配置
+DB_OP_MODULE_PATH = "db_op"
+ASYNC_DB_MODULE = f"{DB_OP_MODULE_PATH}.async_db"
+ASYNC_SQLITE_DB_MODULE = f"{DB_OP_MODULE_PATH}.async_sqlite_db"

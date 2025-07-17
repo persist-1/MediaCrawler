@@ -21,8 +21,7 @@ import aiofiles
 import aiomysql
 
 import config
-from async_db import AsyncMysqlDB
-from async_sqlite_db import AsyncSqliteDB
+from db_op import AsyncMysqlDB, AsyncSqliteDB
 from tools import utils
 from var import db_conn_pool_var, media_crawler_db_var
 

@@ -16,8 +16,7 @@
 
 from typing import Dict, List, Union
 
-from async_db import AsyncMysqlDB
-from async_sqlite_db import AsyncSqliteDB
+from db_op import AsyncMysqlDB, AsyncSqliteDB
 from var import media_crawler_db_var
 
 
